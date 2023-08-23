@@ -1,0 +1,26 @@
+export const provinciasZonas = [
+    { nombre: "Buenos Aires", capital: "La Plata", poblacion: "17.000.000", zona: "Pampeana",link:"https://www.argentina.gob.ar/buenosaires", imagen: "https://image.freepik.com/fotos-gratis/mapa-da-provincia-de-buenos-aires-argentina_2227-259.jpg" },
+    { nombre: "Córdoba", capital: "Córdoba", poblacion: "3.700.000", zona: "Centro", link:"https://www.argentina.gob.ar/cordoba",imagen:"https://img.freepik.com/fotos-premium/mapa-cordoba-argentina_2227-263.jpg?w=360" },
+    { nombre: "Santa Fe", capital: "Santa Fe de la Vera Cruz", poblacion: "3.500.000", zona: "Centro",link:"https://www.argentina.gob.ar/santafe", imagen:"https://img.freepik.com/fotos-premium/mapa-santa-fe-province-argentina_2227-278.jpg?w=360" },
+    { nombre: "Mendoza", capital: "Mendoza", poblacion: "2.000.000", zona: "Cuyo",link:"https://www.argentina.gob.ar/mendoza", imagen:"https://image.freepik.com/foto-gratis/mapa-provincia-mendoza-argentina_2227-270.jpg" },
+    { nombre: "Tucumán", capital: "San Miguel de Tucumán", poblacion: "1.500.000", zona: "Noroeste",link:"https://www.argentina.gob.ar/tucuman", imagen:"https://image.freepik.com/foto-gratis/mapa-provincia-tucuman-argentina_2227-281.jpg" },
+    { nombre: "Entre Ríos", capital: "Paraná", poblacion: "1.300.000", zona: "Centro",link:"https://www.argentina.gob.ar/entre-rios", imagen:"https://image.freepik.com/free-photo/map-entre-rios-province-argentina_2227-265.jpg" },
+    { nombre: "Salta", capital: "Salta", poblacion: "1.200.000", zona: "Noroeste",link:"https://www.argentina.gob.ar/salta", imagen:"https://img.freepik.com/fotos-premium/mapa-provincia-salta-argentina_2227-274.jpg?w=360" },
+    { nombre: "Chaco", capital: "Resistencia", poblacion: "1.100.000", zona: "Noreste",link:"https://www.argentina.gob.ar/chaco", imagen:"https://th.bing.com/th/id/OIP.gTfH1dvquYjqN_lV-lmlFQHaLL?pid=ImgDet&rs=1" },
+    { nombre: "Corrientes", capital: "Corrientes", poblacion: "1.100.000", zona:"Noreste", link:"https://www.argentina.gob.ar/corrientes",imagen:"https://thumbs.dreamstime.com/b/d-map-corrientes-province-argentina-99243435.jpg" },
+    { nombre:"Misiones", capital:"Posadas", poblacion :"1.100.000",zona:"Noreste", link:"https://www.argentina.gob.ar/provincia-de-misiones",imagen:"https://th.bing.com/th/id/OIP.I5hM3SPNrzS-lwF5m3MJmgHaLL?pid=ImgDet&rs=1"},
+    {nombre:"Santiago del Estero", capital:"Santiago del Estero", poblacion :"900.000",zona:"Noroeste",link:"https://www.argentina.gob.ar/santiago", imagen:"https://th.bing.com/th/id/OIP.YB_IfXlTc_zQZSHxcFpATwHaLL?pid=ImgDet&rs=1"},
+    {nombre:"San Juan", capital:"San Juan de la Frontera", poblacion :"700.000",zona:"Cuyo",link:"https://www.argentina.gob.ar/sanjuan", imagen:"https://image.freepik.com/foto-gratis/mapa-san-juan-province-argentina_2227-275.jpg"},
+    {nombre:"Jujuy", capital:"San Salvador de Jujuy", poblacion :"700.000",zona:"Noroeste",link:"https://www.argentina.gob.ar/jujuy", imagen:"https://img.freepik.com/foto-gratis/mapa-provincia-jujuy-argentina_2227-267.jpg?size=338&ext=jpg"},
+    {nombre:"Río Negro", capital:"Viedma", poblacion :"700.000",zona:"Patagonia",link:"https://www.argentina.gob.ar/rionegro", imagen:"https://image.freepik.com/foto-gratis/mapa-provincia-rio-negro-argentina_2227-273.jpg"},
+    {nombre:"Neuquén", capital:"Neuquén Capital", poblacion :"600.000",zona:"Patagonia",link:"https://www.argentina.gob.ar/neuquen", imagen:"https://img.freepik.com/fotos-premium/mapa-neuquen-province-argentina_2227-272.jpg?w=360"},
+    {nombre:"Formosa" ,capital:"Formosa" ,poblacion :"600.000",zona:"Noreste",link:"https://www.argentina.gob.ar/formosa", imagen:"https://img.freepik.com/fotos-premium/mapa-provincia-formosa-argentina_2227-266.jpg?w=360"},
+    {nombre:"Chubut" ,capital:"Rawson" ,poblacion :"500.000",zona:"Patagonia",link:"https://www.argentina.gob.ar/chubut", imagen:"https://img.freepik.com/fotos-premium/mapa-provincia-chubut-argentina_2227-262.jpg?w=360"},
+    {nombre:"San Luis" ,capital:"San Luis" ,poblacion :"500.000",zona:"Cuyo",link:"https://www.argentina.gob.ar/sanluis", imagen:"https://img.freepik.com/fotos-premium/mapa-san-luis-province-argentina_2227-276.jpg?w=360"},
+    {nombre:"Catamarca" ,capital:"San Fernando del Valle de Catamarca" ,poblacion :"400.000",zona:"Noroeste",link:"https://www.argentina.gob.ar/catamarca", imagen:"https://img.freepik.com/fotos-premium/mapa-provincia-catamarca-argentina_2227-260.jpg?w=360"},
+    {nombre:"La Rioja" ,capital:"La Rioja" ,poblacion :"400.000",zona:"Noroeste",link:"https://www.argentina.gob.ar/la-rioja", imagen:"https://img.freepik.com/fotos-premium/mapa-rioja-province-argentina_2227-269.jpg?w=360"},
+    {nombre:"Tierra del Fuego" ,capital:"Ushuaia" ,poblacion :"150.000",zona:"Patagonia",link:"https://www.argentina.gob.ar/tierradelfuego", imagen:"https://img.freepik.com/fotos-premium/mapa-tierra-fuego-province-argentina_2227-280.jpg?w=360"},
+    {nombre:"Santa Cruz" ,capital:"Río Gallegos" ,poblacion :"300.000",zona:"Patagonia",link:"https://www.argentina.gob.ar/santacruz", imagen:"https://img.freepik.com/fotos-premium/mapa-santa-cruz-province-argentina_2227-277.jpg?w=360"}
+];
+
+JSON.parse(localStorage.getItem("provinciasZonas")) || localStorage.setItem("provinciasZonas", JSON.stringify(provinciasZonas));

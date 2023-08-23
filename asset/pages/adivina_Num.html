@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/Logo-NM-cuadrado.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilo_adivina_Num.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Adivina el número</title>
+</head>
+
+<body>
+    <div id="principal">
+        <div id="titulosAdivinar">
+            <h1>¿Quieres adivinar un número?</h1>
+            <h3>Elige un número entre el 1 al 100</h3>
+        </div>
+        <div id="contenedor">
+            <label id="labelNumero" for="numeroIngresado">
+                <input type="number" id="numeroIngresado" placeholder="Escribe el número">
+            </label>
+            <button id="btnAdivinar" onclick="comprobarResultado()">Probar suerte</button>
+            <p id="mensajeAdivinador">¡ ¡ Juguemos ! !</p>
+        </div>
+        <div id="contenedorB">
+            <h3>Cantidad de intentos: <p id="intentos">-</p>
+            </h3>
+            <h3>Ya he jugado: <p id="menosIntentos">-</p>
+            </h3>
+            <button id="btnJugar" onclick="reiniciar()">Jugar de nuevo</button>
+        </div>
+    </div>
+
+    <script src="../JS/adivina_Num.js"></script>
+</body>
+
+</html>

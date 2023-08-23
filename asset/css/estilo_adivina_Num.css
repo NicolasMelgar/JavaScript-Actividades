@@ -1,0 +1,89 @@
+:root{
+    --color-principal: rgb(0, 61, 80);
+    --color-principal-blur: rgba(0, 61, 80, .5);
+    --color-secundario: #fff;
+    --color-secundario-blur: rgba(255, 255, 255, .8);
+    --color-complementario: rgb(17,26,89);
+    --color-gris: #f2f2f2;
+    --color-verde: rgb(43, 139, 107);
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Esta clase se aplica automáticamente a la ventana que esta en el JS */
+.swal-overlay {
+    background-color: rgba(43, 165, 137, 0.45);
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    padding: 1rem;
+    background-color: var(--color-complementario);
+    display: flex;
+    justify-content: center;
+}
+
+#principal{
+    background-color: var(--color-secundario);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    max-width: fit-content;
+    border-radius: 10px;
+    margin: 1.5rem ;
+    padding: 1.5rem; 
+    box-shadow: 10px 10px 20px black;
+}
+
+#titulosAdivinar, #contenedorB, #contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding: .2rem .2rem;
+}
+
+p, #labelNumero, input{
+    text-align: center;
+}
+
+#btnAdivinar, #btnJugar{
+    font-size: 1rem;
+    margin: .5rem .5rem;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: var(--color-verde);
+    transition: all .5s ease-in-out;
+}
+
+#btnAdivinar:hover, #btnJugar:hover{
+    background-color: var(--color-secundario);
+    color: var(--color-complementario);
+}
+
+h1, h3, h4{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#numeroIngresado, #mensajeAdivinador{
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 800px){
+    #principal{
+        margin: 0rem ;
+        padding: 0rem; 
+    }
+}

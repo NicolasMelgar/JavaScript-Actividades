@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/estilos_matematica.css" class="css">
+    <link rel="shortcut icon" href="../img/Logo-NM-cuadrado.png" type="image/x-icon">
+    <title>Matemática Operaciones</title>
+</head>
+
+<body>
+    <div class="encabezado">
+        <h1>Matemática</h1>
+        <h2>Escribe el número máximo para tus operaciones </h2>
+        <input type="text" id="rango">
+    </div>
+
+    <div id="contenedorGeneral">
+        <button id="sumar" onclick="btnSumar()">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+        <button id="restar" onclick="btnRestar()">
+            <i class="fa-solid fa-minus"></i>
+        </button>
+        <button id="multiplicar" onclick="btnMultiplicar()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button id="dividir" onclick="btnDividir()">
+            <i class="fa-solid fa-divide"></i>
+        </button>
+    </div>
+
+    <div id="contenedor__operacion">
+        <span id="num1">A</span>
+        <span id="operacion">+</span>
+        <span id="num2">B</span>
+        <span id="igual"></span>
+        <input type="text" id="resultado__alumno" class="reves">
+    </div>
+
+    <div id="contenedor__corregir">
+        <button id="corregir" onclick="corregir()">Corregir</button>
+    </div>
+
+    <div id="mensaje__corregido">
+        <!-- Acá estan los tick en verde y rojo -->
+    </div>
+
+    <div class="todas_las_operaciones">
+        <!-- Acá intento dejar un registro de cada operación -->
+    </div>
+
+    <script src="../JS/matematica.js"></script>
+</body>
+
+</html>

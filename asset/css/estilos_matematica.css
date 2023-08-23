@@ -1,0 +1,213 @@
+:root{
+    --color-principal: rgb(0, 61, 80);
+    --color-principal-blur: rgba(0, 61, 80, .5);
+    --color-secundario: #fff;
+    --color-secundario-blur: rgba(255, 255, 255, .8);
+    --color-complementario: rgb(17,26,89);
+    --color-gris: #f2f2f2;
+    --color-verde: rgb(43, 139, 107);
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-complementario);
+}
+
+.encabezado{
+    background-color: var(--color-complementario);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem 0rem 1rem;
+    padding: 1rem 1rem;
+    color: var(--color-secundario);
+}
+.encabezado h1{
+    font-size: 3rem;
+}
+
+.encabezado h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#rango{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+#contenedorGeneral{
+    background-color: var(--color-complementario);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 1rem;
+    margin: 0rem 1rem;
+}
+
+#contenedorGeneral button{
+    font-size: 4rem;
+    border: none;
+    margin: 1rem 2rem;
+    padding: 1rem 1rem;
+    border-radius: 15px;
+    box-shadow: 20px 10px 20px black;
+    transition: all .5s linear;
+}
+
+#contenedorGeneral button:hover{
+    scale: 1.3;
+    box-shadow: -20px -10px 20px var(--color-principal);
+}
+
+#contenedor__operacion{
+    background-color: var(--color-gris) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: auto;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+}
+
+#contenedor__operacion #num1, #num2{
+    margin-left: 1rem;
+    margin-right: 4rem;
+    font-size: 2.5rem;
+    width: 50%;
+    text-align: right;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    
+}
+#contenedor__operacion #resultado__alumno{
+    font-size: 2rem;
+}
+#contenedor__operacion #operacion{
+    display: flex;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: -0.8rem;
+    margin-bottom: -0.8rem;
+    font-size: 1.5rem;
+}
+#contenedor__operacion #igual{
+    display: none;
+}
+#contenedor__operacion #resultado__alumno{
+    width: 70%;
+    text-align: center;
+    margin-right: 1rem;
+    border: none;
+    border-top: 2px solid var(--color-principal-blur);
+    background-color: transparent;
+}
+
+.reves{
+    unicode-bidi: bidi-override;
+    direction:rtl ;
+}
+
+#contenedor__corregir{
+    background-color: var(--color-complementario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor__corregir #corregir{
+    font-size: 2rem;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px var(--color-principal-blur);
+    font-weight: bold;
+    background-color: var(--color-complementario);
+    color: #fff;
+    transition: all .5s linear;
+    cursor: pointer;
+}
+#contenedor__corregir #corregir:hover{
+    scale: 1.3;
+    box-shadow: 5px 15px 10px black;
+    cursor: pointer;
+}
+
+.activado{
+    background-color: green;
+    color: white;
+}
+
+#mensaje__corregido{
+    background-color: azure;
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+#mensaje__corregido h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+#mensaje__corregido h3{
+    font-size: 20px;
+    margin: 5px 10px;
+}
+.verde{
+    color: green;
+    background-color: white;
+    margin: 1rem 2rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black ;
+}
+.rojo{
+    color: red;
+    background-color: white;
+    margin: 1rem 2rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black ;
+}
+
+@keyframes zoom{
+    0%{
+transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contenedorGeneral{
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 50%;
+        justify-content: center; 
+    }
+    
+    #contenedorGeneral button{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-width: 49%;
+        font-size: 3rem;
+    }
+}

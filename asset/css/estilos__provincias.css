@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(17,26,89);
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#mi__link{
+    display: flex;
+    justify-content: center;
+}
+
+#mi__boton{
+        border-radius: 20px ;
+        align-items: center;
+        margin-bottom: 5px;
+        padding: 5px 15px;
+}
+#contenedor{
+    display: flex;
+    flex-basis: 33%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.provincia{
+    width: 30%;
+    min-width: 25%;
+}
+.card{
+    display: flex;
+    margin: 10px;
+    height: 550px;
+    width: auto;
+    
+    .card-body button{
+            display: flex;
+            margin: auto;
+    }
+    .card-img-top{
+        width: auto;
+        height: 300px;
+    }
+
+    .card-title{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+
