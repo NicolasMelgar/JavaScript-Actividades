@@ -3,12 +3,93 @@
 
 
 //Palabras del juego
-baseDatos = new Array(4);
-baseDatos[0] = ["PERA", "BANANA", "MANZANA", "SANDIA", "MANDARINA", "NARANJA", "KIWI"];
-baseDatos[1] = ["PIANO", "GUITARRA", "VIOLIN", "BAJO", "TROMPETA", "SAXOFON", "BATERIA"];
-baseDatos[2] = ["LEON", "GALLINA", "PERRO", "GATO", "LEOPARDO", "MURCIELAGO", "MONO", "ELEFANTE"];
-baseDatos[3] = ["PERU", "ARGENTINA", "URUGUAY", "COLOMBIA", "ECUADOR", "CHILE", "VENEZUELA", "BRASIL"];
+let baseDatos = new Array(4);
+// baseDatos[0] = ["PERA", "BANANA", "MANZANA", "SANDIA", "MANDARINA", "NARANJA", "KIWI"];
+// baseDatos[1] = ["PIANO", "GUITARRA", "VIOLIN", "BAJO", "TROMPETA", "SAXOFON", "BATERIA"];
+// baseDatos[2] = ["LEON", "GALLINA", "PERRO", "GATO", "LEOPARDO", "MURCIELAGO", "MONO", "ELEFANTE"];
+// baseDatos[3] = ["PERU", "ARGENTINA", "URUGUAY", "COLOMBIA", "ECUADOR", "CHILE", "VENEZUELA", "BRASIL"];
 
+
+baseDatos[0] = [
+    "MANZANA",
+    "BANANA",
+    "NARANJA",
+    "KIWI",
+    "MANGO",
+    "PERA",
+    "UVA",
+    "CEREZA",
+    "FRESA",
+    "LIMON",
+    "LIMA",
+    "MELON",
+    "SANDIA",
+    "DURAZNO",
+    "CIRUELA",
+    "FRAMBUESA",
+    "ARANDANO",
+    "HIGO",
+    "MANDARINA",
+    "PIÑA"
+    ];
+    
+    baseDatos[1] = 
+    [
+    "PIANO", 
+    "GUITARRA", 
+    "VIOLIN", 
+    "BAJO", 
+    "TROMPETA", 
+    "SAXOFON", 
+    "BATERIA", 
+    "XILOFON", 
+    "FLAUTA", 
+    "CLARINETE"
+    ];
+    
+    
+    baseDatos[2] = 
+    [
+    "LEON",
+    "TIGRE",
+    "OSO",
+    "JIRAFA",
+    "COCODRILO",
+    "ELEFANTE",
+    "HIPOPOTAMO",
+    "CABALLO",
+    "CONEJO",
+    "ARDILLA",
+    "MARIPOSA",
+    "ABEJA",
+    "MURCIELAGO",
+    "PINGUINO",
+    "TORTUGA",
+    "CANGURO",
+    "CAMELLO",
+    "RANA",
+    "TIBURON",
+    "PULPO"
+    ];
+    
+    baseDatos[3] = 
+    [
+    "ARGENTINA",
+    "BOLIVIA",
+    "BRASIL",
+    "CHILE",
+    "COLOMBIA",
+    "ECUADOR",
+    "GUYANA",
+    "PARAGUAY",
+    "PERU",
+    "SURINAME",
+    "URUGUAY",
+    "VENEZUELA"
+    ];
+    
+    
+    
 // baseDatos = new Array(4);
 // baseDatos[0];
 // baseDatos[1];
