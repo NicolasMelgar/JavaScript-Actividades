@@ -1,9 +1,21 @@
+//Probando importación 
+//import { baseDatos } from "./bd_Arma_palabras.js";
+
+
 //Palabras del juego
-let baseDatos = new Array(4);
+baseDatos = new Array(4);
 baseDatos[0] = ["PERA", "BANANA", "MANZANA", "SANDIA", "MANDARINA", "NARANJA", "KIWI"];
 baseDatos[1] = ["PIANO", "GUITARRA", "VIOLIN", "BAJO", "TROMPETA", "SAXOFON", "BATERIA"];
 baseDatos[2] = ["LEON", "GALLINA", "PERRO", "GATO", "LEOPARDO", "MURCIELAGO", "MONO", "ELEFANTE"];
 baseDatos[3] = ["PERU", "ARGENTINA", "URUGUAY", "COLOMBIA", "ECUADOR", "CHILE", "VENEZUELA", "BRASIL"];
+
+// baseDatos = new Array(4);
+// baseDatos[0];
+// baseDatos[1];
+// baseDatos[2];
+// baseDatos[3];
+
+
 
 //CATEGORIAS
 let categorias = ["FRUTAS", "MUSICA", "ANIMALES", "PAISES"];
