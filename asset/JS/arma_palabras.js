@@ -129,7 +129,7 @@ function siguiente(){
         let h3 = document.createElement("h3");
         h3.textContent = "¡JUEGO FINALIZADO!";
         //En este caso voy a dejar la otra forma porque me gusta como se ve el movimiento
-        swal("¡¡¡FELICITACIONES!!!", `GRAN TRABAJO`);
+        swal("¡¡FELICITACIONES!!", `GRAN TRABAJO`);
         document.querySelector("#contenedor").appendChild(h3);
         let h3b = document.createElement("h3");
         h3b.textContent = "¡MUY BIEN!";

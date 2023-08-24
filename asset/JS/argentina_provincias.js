@@ -24,9 +24,9 @@ let contenedor = document.getElementById("contenedor");
 provinciasZonas.forEach((provinciasZonas) =>{
     const { nombre, capital, poblacion, zona, link, imagen} = provinciasZonas;
     let tarjeta = document.createElement("div");
-    tarjeta.className = "provincia";
+    tarjeta.className = "provincia col-lg-4 col-sm-12";
     tarjeta.innerHTML = `
-    <div class="card">
+    <div class="card col-lg-4 col-sm-12">
     <img class="card-img-top" src="${imagen}" alt="Card image cap">
     <div class="card-body">
     <p class="card-title">${nombre}</p>

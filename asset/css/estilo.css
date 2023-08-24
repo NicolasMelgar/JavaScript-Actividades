@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 
-/* html{
-    font-size: 20px;
-} */
+.swal-button-container {
+    display: flex;
+    justify-content: center;
+}
 
 body{
     padding: 1rem;

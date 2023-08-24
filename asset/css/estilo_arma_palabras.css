@@ -6,16 +6,22 @@ body{
     background-color:  rgb(17,26,89);
     font-family: "Roboto";/*no la descargue al html si al css aún*/
 }
-
+/*---------SWEET ALERT--------------*/
 /* Esta clase se aplica automáticamente a la ventana que esta en el JS */
 .swal-overlay {
     /*background-color: rgb(43, 165, 137); /*lO DEJO SIN RGBA PORQUE ASÍ TAPA LA PANTALLA*/
-     background-color:  rgb(17,26,89);
+    background-color:  rgb(17,26,89);
 }
 .swal-modal {
     background-color: rgba(4, 218, 50, 0.811);
     border: 3px solid white;
 }
+.swal-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------------------------------*/
 
 h1{
     font-size: 4rem;
@@ -129,7 +135,7 @@ button{
     align-items: center;
 }
 
-/*Ojo con esta parte minuto 20*/
+
 .nivel i{
     font-size: 40px;
     /* color: #0000; Esto me desaparece el ícono*/
@@ -141,4 +147,38 @@ button{
 
 .completado i{
     color: #fff;
+}
+
+@media screen and (max-width: 426px){
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.1rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+    .contenedor .fila .palabra{
+        display: flex;
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contenedor input{
+        font-size: 1rem;
+    }
+
+    button{
+        font-size: 15px;
+    }
+
+    .nivel i{
+        font-size: 20px;
+        /* color: #0000; Esto me desaparece el ícono*/
+    }
+
 }

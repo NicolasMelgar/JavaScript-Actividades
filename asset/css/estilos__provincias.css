@@ -40,23 +40,35 @@ h1{
 .card{
     display: flex;
     margin: 10px;
-    height: 550px;
+    min-height: 550px;
     width: auto;
     
-    .card-body button{
-            display: flex;
-            margin: auto;
-    }
-    .card-img-top{
-        width: auto;
-        height: 300px;
-    }
 
-    .card-title{
-        font-size: 2rem;
-        font-weight: bold;
-        text-align: center;
-    }
+}
+.card-body button{
+    display: flex;
+    margin: auto;
+}
+.card-img-top{
+    width: auto;
+    height: 300px;
 }
 
+.card-title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
 
+@media screen and (max-width: 890px){
+    #contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .provincia{
+        width: 90%;
+        margin: auto;
+    }
+
+}

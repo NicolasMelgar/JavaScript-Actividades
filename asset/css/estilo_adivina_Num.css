@@ -18,6 +18,10 @@
 .swal-overlay {
     background-color: rgba(43, 165, 137, 0.45);
 }
+.swal-button-container {
+    display: flex;
+    justify-content: center;
+}
 
 html{
     font-size: 20px;
@@ -81,9 +85,20 @@ h1, h3, h4{
     font-weight: bolder;
 }
 
-@media screen and (max-width: 800px){
+/* @media screen and (max-width: 800px){
     #principal{
         margin: 0rem ;
         padding: 0rem; 
+    }
+} */
+
+@media screen and (max-width: 768px){
+    html{
+        font-size: 15px;
+    }
+
+    #principal{
+        margin: 10px ;
+        padding: 20px; 
     }
 }
