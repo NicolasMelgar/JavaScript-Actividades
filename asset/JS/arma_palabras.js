@@ -1,9 +1,9 @@
 //Probando importación 
-//import { baseDatos } from "./bd_Arma_palabras.js";
+//import { baseDatos } from "./bd_Armar_Palabras.js";
 
 
 //Palabras del juego
-let baseDatos = new Array(4);
+baseDatos = new Array(4);
 // baseDatos[0] = ["PERA", "BANANA", "MANZANA", "SANDIA", "MANDARINA", "NARANJA", "KIWI"];
 // baseDatos[1] = ["PIANO", "GUITARRA", "VIOLIN", "BAJO", "TROMPETA", "SAXOFON", "BATERIA"];
 // baseDatos[2] = ["LEON", "GALLINA", "PERRO", "GATO", "LEOPARDO", "MURCIELAGO", "MONO", "ELEFANTE"];
