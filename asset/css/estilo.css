@@ -87,3 +87,26 @@ a:hover{
     bottom: 1rem;
     left: 15rem;
 }
+
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 2.2rem;
+    }
+    .descripcion{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 1.5rem;
+        padding: .5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .matematicas{
+        flex-direction: column;
+        justify-content: center;
+    }
+    a{
+        font-size: 1.5rem;
+    }
+
+
+}
