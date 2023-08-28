@@ -1,0 +1,108 @@
+:root{
+    --color-principal: red ;
+    --color-secundario: rgb(17,26,89);
+    --w: calc(70vw/5);
+    --h: calc(70vh/4);
+
+}
+
+.swal-overlay {
+    background-color: rgba(43, 165, 137, 0.45);
+}
+.swal-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    transition: all .5s;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    --webkit-perspective: 1000;
+    background: rgba(162, 122, 122, 0.546);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#tablero{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.div{
+    display: inline;
+    
+}
+
+.area__tarjeta, 
+.tarjeta, 
+.cara{
+    cursor: pointer;
+    width: var(--w);
+    min-width: 100px;
+    height: var(--h);
+    min-height: 130px;
+    /*Con esto puse los iconos blancos...no sé que color se vería mejor*/
+    color: white;
+    
+}
+
+.tarjeta{
+    position: relative;
+    transform-style: preserve-3d;
+    animation: iniciar 5s;
+}
+
+.cara{
+    position: absolute;
+    /* Esto si que es la primera vez que lo veo */
+    backface-visibility: hidden;
+    box-shadow: 0 0 0 5px white;
+    /*Esto es para agrandar el icono*/
+    font-size: 400%;
+    /*Esto tambien es para el icono*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.superior{
+    background-color: var(--color-principal);
+}
+
+.trasera{
+    background-color: var(--color-secundario);
+    transform: rotateY(180deg);
+}
+
+.nuevo_juego{
+    cursor: pointer;
+    background-color: var(--color-secundario);
+    padding: 20px;
+    /*No se porqué al modificar este margin se modifica también el ancho*/
+    margin: 30px 280px;
+    border-radius: 50px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+@keyframes iniciar {
+    20%, 90%{
+        transform: rotateY(180deg);
+    }
+    0%, 100%{
+        transform: rotateY(0deg); 
+    }
+}

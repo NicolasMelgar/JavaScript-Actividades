@@ -10,7 +10,7 @@ baseDatos = new Array(4);
 // baseDatos[3] = ["PERU", "ARGENTINA", "URUGUAY", "COLOMBIA", "ECUADOR", "CHILE", "VENEZUELA", "BRASIL"];
 
 
-baseDatos[0] = [
+baseDatos[0] = [ 
     "MANZANA",
     "BANANA",
     "NARANJA",
