@@ -1,0 +1,88 @@
+:root{
+    --color-principal: rgb(0, 61, 80);
+    --color-principal-blur: rgba(0, 61, 80, .5);
+    --color-secundario: #fff;
+    --color-secundario-blur: rgba(255, 255, 255, .8);
+    --color-complementario: rgb(17,26,89);
+    --color-gris: #f2f2f2;
+    --color-verde: rgb(43, 139, 107);
+    --color-rojo: rgba(239, 11, 11, 0.822);
+} 
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+div{
+    display: block;
+    margin: 30px;
+    border: 2px solid var(--color-verde);
+    background: rgba(128, 128, 128, 0.256);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px var(--color-principal-blur);
+    transition: all .6s linear;
+}
+
+div:hover{
+    scale: 1.15;
+    color: #fff;
+    font-size: 2.5rem;
+    background-color: black;
+}
+
+div:hover h2{
+        color: #fff;
+    }
+
+div:hover h3{
+    color: var(--color-rojo);
+}
+
+div:hover img{
+    rotate: 360deg;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    width: 100%;
+}
+h2{
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:var(--color-complementario);
+}
+
+h3{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0px;
+    color: var(--color-verde);
+    max-width: 280px;/*con esto pongo en dos renglones los nombre*/
+    margin: auto;
+}
+
+b{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.6rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    border-radius: 50px;
+    margin: 5px;
+    transition: all .5s linear;
+}

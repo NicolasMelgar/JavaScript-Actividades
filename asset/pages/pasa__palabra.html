@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo_pasaPalabra.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="shortcut icon" href="../img/LogoNM.png" type="image/x-icon">
+    <title>Pasa-Palabra</title>
+</head>
+<body>
+    <section id="pantalla__inicial">
+        <h1>PASAPALABRA</h1>
+        <button id="comenzar">Comenzar Juego</button>
+    </section>
+
+    <!-- sección del juego -->
+    <section id="pantalla__juego">
+        <!-- Aquí se generan las letras dinámicamente -->
+        <div class="contenedor">
+            <span id="tiempo">60</span>
+        </div>
+        <div class="contenedor__pregunta">
+            <span id="letra__pregunta">Z</span> 
+            <h2 id="pregunta">Esta es la pregunta...</h2>
+            <input type="text" id="respuesta">
+            <div class="botones">
+                <button id="responder">Responder</button>
+                <button id="pasar">Pasa Palabra</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección pantalla final -->
+    <section id="pantalla__final">
+        <h1>Resumen</h1>
+        <h3>Aciertos</h3>
+        <span id="acertadas">10</span>
+        <h3 id="score">40% de aciertos</h3>
+        <button id="recomenzar">Jugar de nuevo</button>
+
+    </section>
+    <script src="../JS/pasaPalabra.js"></script>
+</body>
+</html>
