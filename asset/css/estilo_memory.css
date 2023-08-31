@@ -106,3 +106,17 @@ body{
         transform: rotateY(0deg); 
     }
 }
+
+@media screen and (max-width: 500px){
+.area__tarjeta, 
+.tarjeta, 
+.cara{    
+    width: var(--w);
+    min-width: 70px;
+    height: var(--h);
+    min-height: 65px;
+}
+.cara{
+    font-size: 200%;
+}
+}
