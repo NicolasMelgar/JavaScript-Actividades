@@ -108,6 +108,33 @@ a:hover{
     a{
         font-size: 1.5rem;
     }
+}
+
+@media screen and (max-width: 425px){
+    h1{
+        font-size: 2rem;
+    }
+    .descripcion{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 1.5rem;
+        padding: .5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .matematicas{
+        flex-direction: column;
+        justify-content: center;
+    }
+    a{
+        font-size: 1.2rem;
+    }
+
+    .matematica, .adivinoNumero, .culturaGeneral, .argentina, .lista_de_tareas, .armar__palabras, .memory, .pasa__palabra, .api {
+        flex-basis: 90%;
+        margin: .5rem .5rem;
+        padding: 10px 10px;
+    }
 
 
 }
